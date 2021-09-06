@@ -1,0 +1,332 @@
+properties{
+  x = 960,
+  y = 320,
+  width = 640,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Sewer",
+  floor = -1,
+  tileset = "dungeon/blue",
+  music = "cave",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 640,
+  height = 112,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 296,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 640,
+  height = 80,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.9",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.7",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 32,
+  width = 640,
+  height = 48,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 32,
+  width = 448,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 32,
+  width = 160,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 248,
+  width = 640,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 280,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 272,
+  width = 640,
+  height = 8,
+  pattern = "rock.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 240,
+  width = 640,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 16,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 72,
+  width = 640,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "865",
+}
+
+teletransporter{
+  layer = 1,
+  x = -16,
+  y = 40,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_Center",
+  destination = "_side",
+}
+
+dynamic_tile{
+  name = "Sewer_ECenter_Wwall_Bord",
+  layer = 1,
+  x = 160,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "rock.8",
+}
+
+teletransporter{
+  name = "Sewer_SDungeon1_SDoor_TP",
+  layer = 1,
+  x = 168,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "World_Good/Sewer/Sewer_Sword",
+  destination = "Sewer_Sword_SWwall_SDoor_Dest",
+}
+
+destination{
+  name = "Sewer_SDungeon1_SDoor_Dest",
+  layer = 1,
+  x = 176,
+  y = 37,
+  direction = 3,
+}
+
+dynamic_tile{
+  name = "Sewer_ECenter_Wwall_Wall",
+  layer = 1,
+  x = 160,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+door{
+  name = "Sewer_ECenter_Wwall",
+  layer = 1,
+  x = 168,
+  y = 24,
+  direction = 1,
+  sprite = "doors/door_d1_weak_wall",
+  savegame_variable = "Sewer_ECenter_Wwall_Explosed",
+  opening_method = "explosion",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 304,
+  width = 640,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 168,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+dynamic_tile{
+  name = "Sewer_ECenter_Wwall_TopDoor",
+  layer = 2,
+  x = 160,
+  y = 16,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-3",
+}
+

@@ -1,0 +1,181 @@
+properties{
+  x = 0,
+  y = 320,
+  width = 640,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Sewer",
+  floor = -1,
+  tileset = "dungeon/blue",
+  music = "cave",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 640,
+  height = 112,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 296,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 640,
+  height = 80,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.9",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 40,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_Center",
+  destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 248,
+  width = 640,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 280,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 272,
+  width = 640,
+  height = 8,
+  pattern = "rock.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 240,
+  width = 640,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 40,
+  width = 640,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 32,
+  width = 640,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 72,
+  width = 640,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 16,
+  enabled_at_start = false,
+  width = 640,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 304,
+  width = 640,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+

@@ -1,0 +1,658 @@
+properties{
+  x = 640,
+  y = 0,
+  width = 320,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Sewer",
+  floor = -1,
+  tileset = "dungeon/blue",
+  music = "cave",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.9",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.7",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 112,
+  height = 224,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 80,
+  enabled_at_start = false,
+  width = 128,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  enabled_at_start = false,
+  width = 24,
+  height = 304,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  enabled_at_start = false,
+  width = 288,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 16,
+  width = 24,
+  height = 304,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 104,
+  width = 80,
+  height = 224,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1b",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1a",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1b",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1a",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1b",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1a",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 104,
+  width = 48,
+  height = 8,
+  pattern = "waterfall.1.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 96,
+  width = 48,
+  height = 8,
+  pattern = "waterfall.1.top",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 80,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 104,
+  width = 24,
+  height = 224,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 104,
+  width = 24,
+  height = 224,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 32,
+  width = 96,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 32,
+  width = 96,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "rock.9",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "rock.7",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 72,
+  width = 32,
+  height = 256,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 72,
+  width = 32,
+  height = 256,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 48,
+  width = 16,
+  height = 272,
+  pattern = "rock.6",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 32,
+  enabled_at_start = false,
+  width = 24,
+  height = 288,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 16,
+  height = 272,
+  pattern = "rock.4",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 32,
+  enabled_at_start = false,
+  width = 24,
+  height = 288,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 80,
+  width = 48,
+  height = 16,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  enabled_at_start = false,
+  width = 240,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 80,
+  width = 8,
+  height = 240,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 72,
+  width = 160,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 80,
+  width = 8,
+  height = 240,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "865",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "wall_torch.1",
+}
+
+dynamic_tile{
+  name = "Sewer_SDungeon1_Wwall_Bord",
+  layer = 1,
+  x = 144,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "rock.8",
+}
+
+teletransporter{
+  name = "Sewer_SDungeon1_SDoor_TP",
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "Dungeon1/B1_Entrance",
+  destination = "B1_Entrance_SDoor_Dest",
+}
+
+destination{
+  name = "Sewer_SDungeon1_SDoor_Dest",
+  layer = 1,
+  x = 160,
+  y = 37,
+  direction = 3,
+}
+
+dynamic_tile{
+  name = "Sewer_SDungeon1_Wwall_Wall",
+  layer = 1,
+  x = 144,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+door{
+  name = "Sewer_SDungeon1_Wwall",
+  layer = 1,
+  x = 152,
+  y = 24,
+  direction = 1,
+  sprite = "doors/door_d1_weak_wall",
+  savegame_variable = "Sewer_Wwall_Exploded",
+  opening_method = "explosion",
+}
+
+teletransporter{
+  layer = 1,
+  x = 40,
+  y = 320,
+  width = 240,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_Center",
+  destination = "_side",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 320,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 320,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "wall_low.2-1b",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = -48,
+  width = 320,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+dynamic_tile{
+  name = "Sewer_SDungeon1_Wwall_TopDoor",
+  layer = 2,
+  x = 144,
+  y = 16,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-3",
+}
+

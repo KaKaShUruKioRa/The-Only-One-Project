@@ -1,0 +1,16 @@
+animation{
+  name = "static",
+  src_image = "menus/lightraven_logo/lrlogo.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 160, frame_height = 160, origin_x = 80, origin_y = 157 },
+  },
+}
+animation{
+  name = "moving",
+  src_image = "menus/lightraven_logo/lrlogo.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 160, frame_height = 160, origin_x = 80, origin_y = 80, num_frames = 8, num_columns = 4 },
+  },
+}
