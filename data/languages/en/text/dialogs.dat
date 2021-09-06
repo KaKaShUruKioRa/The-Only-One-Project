@@ -1,0 +1,802 @@
+dialog{
+  id = "Dungeon1.ArrowSecret",
+  text = [[
+Looks like something...
+moved somewhere in the dungeon... 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.Ask",
+  text = [[
+Hello young hero!
+         What is your visit worth to me?
+         $? I need care
+     $? Do you have something for me 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.GiveItem",
+  text = [[
+Here it is !
+It's a very powerful hammer,
+blessed by the fairies which gives it a
+immeasurable strength. 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.Heal",
+  text = [[
+I will heal your wounds young hero ...
+
+You really need it! 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.NoMoreItem",
+  text = [[
+Sorry young hero,
+I unfortunately have nothing more to offer you.
+I can only wish you
+good fortune in your quest!
+Also, don't hesitate to come and see me,
+when you're hurt ...
+
+I will heal your wounds. 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.Search",
+  text = [[
+It turns out that I keep a treasure
+in the fountain...
+just time for me
+to look for it... 
+]],
+}
+
+dialog{
+  id = "Dungeon1.GreatFairy.UselessHeal",
+  text = [[
+Come back to me when you have some
+really need young hero.
+
+So I'll be there to heal your wounds. 
+]],
+}
+
+dialog{
+  id = "Indices.HelpCondamned",
+  text = [[
+Hint :
+
+It is possible that some safes are
+definitively condemned by traps. 
+]],
+}
+
+dialog{
+  id = "Indices.HelpFragile",
+  text = [[
+Hint:
+
+If you find fragile areas maybe
+that with a little weight they can give way. 
+]],
+}
+
+dialog{
+  id = "Indices.HelpGourou",
+  text = [[
+Hint:
+
+Don't anger the Supreme Grand Chief.
+Take the time to think it over! 
+]],
+}
+
+dialog{
+  id = "Indices.HelpLie",
+  text = [[
+Hint:
+
+There are lies in this dungeon.
+All is not what it seems. 
+]],
+}
+
+dialog{
+  id = "Indices.HelpLocked",
+  text = [[
+Hint:
+
+If you're stuck push the block
+to where you can.
+]],
+}
+
+dialog{
+  id = "Indices.HelpMaxLife",
+  text = [[
+Index :
+
+Does this dungeon seem extremely dangerous?
+Come back healthier...
+]],
+}
+
+dialog{
+  id = "Indices.HelpTriforce",
+  text = [[
+Hint:
+
+The triforce is waiting for something! 
+]],
+}
+
+dialog{
+  id = "Indices.HitHeart",
+  text = [[
+Hint :
+
+Strike right in the heart! 
+]],
+}
+
+dialog{
+  id = "Indices.IndiceQuestion",
+  text = [[
+Do you want to activate this hint?
+
+                    $? Yes
+                    $? No 
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.Cave_Sewer",
+  text = [[
+Access to sewers:
+
+Dangerous zone ! Do not enter without
+a guide.
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.House_Link",
+  text = [[
+Link's House:
+
+Push the door and enter. 
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.NGuard",
+  text = [[
+But where do you come from? 
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.No_Trepassing",
+  text = [[
+Sorry, but you can't pass!
+
+I can't tell you more!
+Please move on! 
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.Pulling_Guard",
+  text = [[
+I finally managed to unlock this cave ...
+
+Pfiou ... I can't take it anymore. 
+]],
+}
+
+dialog{
+  id = "Intro_World_Good.SGuard",
+  text = [[
+We were ordered
+to let people circulate
+$ 0
+$ 3 Please circulate now ... 
+]],
+}
+
+dialog{
+  id = "NoBigKey",
+  text = [[
+You can't open it ...
+You need the big key for that!
+]],
+}
+
+dialog{
+  id = "NoRupees",
+  text = [[
+You can't open it ...
+You need more Rubies for that!
+]],
+}
+
+dialog{
+  id = "NoSmallKey",
+  text = [[
+You can't open it ...
+You need a small key for that!
+]],
+}
+
+dialog{
+  id = "World_Good.Sewer.RupeeDoor",
+  text = [[
+Insert 20 Rupees by pulling the door!
+
+Yes, that's it, pull the door! 
+]],
+}
+
+dialog{
+  id = "_crystal",
+  text = [[
+Hit the cristal with your, 
+or something else !
+By doing this, you will raise the plots
+and lower others.
+]],
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Tu ne peux en acheter plus !
+
+Tu es déjà plein.
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Tu n'as pas assez d'argent !
+
+Qui essaies-tu d'arnaquer là ?...
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Prix : $v rubis.
+           $? Acheter !
+           $? Ne pas acheter !
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/heart.1",
+  text = [[
+You get a Heart!
+
+It gives you back a heart. 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/heart_container.1",
+  text = [[
+You get a Heart Container!
+
+It increases your heart total. 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/piece_of_heart.1",
+  text = [[
+You get a Piece of Heart!
+
+When you have gathered four
+you will get an additional Heart. 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.1",
+  text = [[
+You found a Green Ruby! 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.2",
+  text = [[
+You found a Blue Ruby!
+
+It is worth 5 Green Rubies! 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.3",
+  text = [[
+You found a Red Ruby!
+
+It is worth 20 Red Rubies! 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.4",
+  text = [[
+You found 50 Rubies! 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.5",
+  text = [[
+You found 100 Rubies! 
+]],
+}
+
+dialog{
+  id = "_treasure.consumables/rupee.6",
+  text = [[
+You found 300 Rubies! 
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/big_key.1",
+  text = [[
+You got the big key!
+
+With this you can open the big chest
+as well as the door of the Great Door of the Boss! 
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/compass.1",
+  text = [[
+You got the Dungeon Compass!
+
+Thanks to her you can know your position in
+the dungeon as well as the chest locations.
+
+
+"Oh but that's awesome" you might say ...
+But in fact, well, it's broken so ...
+No compass? No compass! 
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/map.1",
+  text = [[
+You got the Dungeon Map!
+
+Thanks to her you can know the distribution
+of the dungeon rooms.
+
+But hey, this doesn't actually work,
+so bah ... get out of the way ....
+
+No, I'm kidding.
+If you're stuck go back to the theaters
+with big holes and looks for ... 
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/small_key.1",
+  text = [[
+You got a little key!
+
+You can open locked doors! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/flippers.1",
+  text = [[
+You found the Palms!
+
+You can now swim in deep water! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.1",
+  text = [[
+You found
+a Shield of Shit!
+
+Here you are ready to miss your dodges! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.2",
+  text = [[
+You found
+a Shield of Shit!
+
+Here you are ready to miss your dodges! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.3",
+  text = [[
+You found
+a Shield of Shit!
+
+Here you are ready to miss your dodges! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.1",
+  text = [[
+You found a sword!
+
+With this one you will be able to defend yourself
+against monsters!
+
+And also be able to cut hedges.
+Great ! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.2",
+  text = [[
+You found
+the Sword of Shit!
+
+Here you are, ready to cut some fucking bushes! 
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.3",
+  text = [[
+You found
+the Sword of Shit!
+
+Here you are, ready to cut some fucking bushes! 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bombs.1",
+  text = [[
+You get a Bag of Bombs!
+
+You will be able to blow up a lot of things
+like enemies or walls ...
+
+Be careful not to hurt yourself with this! 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_1.1",
+  text = [[
+You get an empty jar!
+
+You can store things like ...
+water, bees, seeds, etc.
+
+But also potions and fairies!
+
+
+
+Ha ... and ... it doesn't work,
+so give up the idea of using it 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_2.1",
+  text = [[
+You get an empty jar!
+
+You can store things like ...
+water, bees, seeds, etc.
+
+But also potions and fairies! 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_3.1",
+  text = [[
+You get an empty jar!
+
+You can store things like ...
+water, bees, seeds, etc.
+
+But also potions and fairies! 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_4.1",
+  text = [[
+You get an empty jar!
+
+You can store things like ...
+water, bees, seeds, etc.
+
+But also potions and fairies! 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bow.1",
+  text = [[
+You get the bow!
+Well, with that you can shoot arrows.
+It is particularly effective against
+some enemies.
+
+But it can also be used to trigger
+secret or non-secret switches. 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/hammer.1",
+  text = [[
+You receive the blessed hammer of the fairies!
+
+You won't become a blacksmith with this ...
+
+Nevertheless you can use it to hit
+your enemies or lower plots!
+Some enemies can even be
+completely returned. 
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/lantern.1",
+  text = [[
+You get the lantern!
+
+Thanks to this you will be able to light
+the very dark areas around you!
+Or light torches ... see ...
+
+SET ON FIRE !!!!!! 
+]],
+}
+
+dialog{
+  id = "_treasure.quest/mushroom.1",
+  text = [[
+But... !?
+]],
+}
+
+dialog{
+  id = "cave2.dontfeedthetroll",
+  text = [[
+Veuillez ne pas parler au troll derrière
+cette pancarte !
+
+Don't feed the troll !
+]],
+}
+
+dialog{
+  id = "cave2.mrshroom1st",
+  text = [[
+Salut ! 
+Je suis dans cette grotte depuis un moment,
+mais je n'ai trouvé aucun champignon.
+
+Peut-être pourrais-tu m'aider ?
+            $? Bien sur !
+            $? J'ai pas que ça à faire !
+]],
+}
+
+dialog{
+  id = "cave2.mrshroomno",
+  text = [[
+
+Pffff, allez casse-toi d'ma grotte !
+
+Raclure !
+]],
+}
+
+dialog{
+  id = "cave2.mrshroomquest",
+  text = [[
+Alors, tu l'as trouvé ce champignon ?
+]],
+}
+
+dialog{
+  id = "cave2.mrshroomyes",
+  text = [[
+Parfait, je te donne ce champignon !
+J'espère que tu pourras vraiment m'aider
+
+A très très très bientôt ! ;)
+]],
+}
+
+dialog{
+  id = "cave2.paradoxshroom",
+  text = [[
+
+N'avait-il pas besoin d'un champignon ?
+N'est-ce point pour cela que vous acceptiez ?
+
+
+Ho... puis au fond qui s'en préoccupe...
+Allez lui rendre la champignon.....
+Ou gardez-le ? 
+]],
+}
+
+dialog{
+  id = "cave2.receptionist",
+  text = [[
+Oui ?..
+
+Que voulez-vous ?
+]],
+}
+
+dialog{
+  id = "on_look.cant_lift",
+  text = [[
+You can't lift this!
+
+You don't have what it takes for that! 
+]],
+}
+
+dialog{
+  id = "on_looked.cant_cut",
+  text = [[
+t would take enough to cut that ...
+
+A sword for example? 
+]],
+}
+
+dialog{
+  id = "on_looked.cant_lift",
+  text = [[
+It's too heavy...
+
+You need special equipment
+to be able to lift that! 
+]],
+}
+
+dialog{
+  id = "on_looked.still_cant_lift",
+  text = [[
+It's much too heavy ...
+
+You don't have the right equipment ...
+Upgrade your gear for that! 
+]],
+}
+
+dialog{
+  id = "save_quit",
+  text = [[
+            $? To continue
+           $? Save and exit
+          $? Quit without saving
+]],
+}
+
+dialog{
+  id = "shop1.item1",
+  text = [[
+Tu veux ça ? Vraiment ?...
+
+Bon tu fais comme tu veux, 
+c'est ton argent après tout
+]],
+}
+
+dialog{
+  id = "shop1.item2",
+  text = [[
+Tu veux ça ? Vraiment ?
+
+Bon bah n'hésite pas comme ça ! Allons !
+:wink: :wink:
+]],
+}
+
+dialog{
+  id = "shop1.item3",
+  text = [[
+Tu veux ça ? Vraiment ?...
+
+Cela me parait parfaitement futile...
+mais soit.
+]],
+}
+
+dialog{
+  id = "shop1.item4",
+  text = [[
+Heu... t'es vraiment sur de vouloir ça ?
+C'est à dire que...
+enfin... en fait...
+...
+]],
+}
+
+dialog{
+  id = "shop1.shoper",
+  text = [[
+Va vers les articles, pas vers moi...
+]],
+}
+
+dialog{
+  id = "test.answer",
+  a = "a",
+  b = "b",
+  c = "c",
+  text = [[
+a = "a"
+b = "b"
+c = "c"
+]],
+}
+
+dialog{
+  id = "test.defineA",
+  text = [[
+Défini A
+$? 1
+$? 10
+$? 30
+]],
+}
+
+dialog{
+  id = "test.defineB",
+  text = [[
+Défini B
+$? 2
+$? 20
+$? 200
+]],
+}
+
+dialog{
+  id = "test.defineC",
+  text = [[
+Défini C
+$? 3
+$? 33
+$? 66
+]],
+}
+

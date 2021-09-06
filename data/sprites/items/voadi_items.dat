@@ -1,0 +1,49 @@
+animation{
+  name = "tears",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "b12",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "cultured_meat",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "seed",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "stick",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "vacuum",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}
+animation{
+  name = "whiskey",
+  src_image = "items/voadi_items.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 4 },
+  },
+}

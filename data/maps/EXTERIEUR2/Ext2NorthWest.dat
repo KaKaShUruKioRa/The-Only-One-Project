@@ -1,0 +1,64 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 536,
+  height = 1024,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Exterieur2",
+  tileset = "out/outside",
+  music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 544,
+  enabled_at_start = false,
+  width = 544,
+  height = 480,
+  pattern = "907",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 544,
+  height = 544,
+  pattern = "69",
+}
+
+teletransporter{
+  layer = 0,
+  x = 536,
+  y = 0,
+  width = 16,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "EXTERIEUR2/Ext2NorthEast",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 1024,
+  width = 320,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "EXTERIEUR2/Ext2West",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 1024,
+  width = 224,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "EXTERIEUR2/Ext2MiddleWest",
+  destination = "_side",
+}
+

@@ -1,0 +1,970 @@
+properties{
+  x = 640,
+  y = 320,
+  width = 320,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Sewer",
+  floor = -1,
+  tileset = "dungeon/blue",
+  music = "cave",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2b",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2b",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 320,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2b",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2a",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.2b",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 320,
+  height = 112,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 80,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 120,
+  width = 128,
+  height = 80,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-1b",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 80,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-1b",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = -8,
+  width = 112,
+  height = 112,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 0,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 0,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 120,
+  width = 128,
+  height = 80,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = -8,
+  width = 80,
+  height = 128,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 80,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 80,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 216,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.2.support.3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 216,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.2.support.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 200,
+  width = 48,
+  height = 128,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 80,
+  height = 80,
+  pattern = "water",
+}
+
+teletransporter{
+  name = "Sewer_Center_SBord",
+  layer = 0,
+  x = 136,
+  y = 320,
+  width = 48,
+  height = 16,
+  destination_map = "World_Good/World_Good",
+  destination = "_side",
+}
+
+stairs{
+  layer = 0,
+  x = 296,
+  y = 80,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = 0,
+  x = 8,
+  y = 80,
+  direction = 1,
+  subtype = 4,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 240,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 184,
+  y = 240,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 0,
+  y = 72,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 24,
+  y = 72,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 72,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 312,
+  y = 72,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 40,
+  width = 80,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 40,
+  width = 80,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 0,
+  width = 32,
+  height = 48,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 0,
+  width = 32,
+  height = 48,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "rock.6",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "rock.4",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.7",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 248,
+  width = 320,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "rock.8",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "rock.9",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 16,
+  enabled_at_start = false,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 280,
+  enabled_at_start = false,
+  width = 320,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-1b",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 16,
+  enabled_at_start = false,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 272,
+  width = 320,
+  height = 8,
+  pattern = "rock.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  enabled_at_start = false,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-1b",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 240,
+  width = 320,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 72,
+  width = 160,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 0,
+  enabled_at_start = false,
+  width = 24,
+  height = 16,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 0,
+  enabled_at_start = false,
+  width = 24,
+  height = 16,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 72,
+  width = 32,
+  height = 176,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 72,
+  width = 32,
+  height = 176,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 80,
+  width = 8,
+  height = 160,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 80,
+  width = 8,
+  height = 160,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 160,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 40,
+  width = 176,
+  height = 32,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 280,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 280,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 280,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 296,
+  width = 320,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-1",
+}
+
+teletransporter{
+  name = "Sewer_Center_NBord",
+  layer = 1,
+  x = 40,
+  y = -16,
+  width = 240,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_SDun1",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "Sewer_Center_WBord",
+  layer = 1,
+  x = -16,
+  y = 40,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_WCenter",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "Sewer_Center_EBord",
+  layer = 1,
+  x = 320,
+  y = 40,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "World_Good/Sewer/Sewer_ECenter",
+  destination = "_side",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 304,
+  width = 320,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+

@@ -1,0 +1,14 @@
+animation{
+  name = "normal",
+  src_image = "items/consumables/rupee.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "visible",
+  src_image = "items/consumables/rupee.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 0, origin_y = 0 },
+  },
+}

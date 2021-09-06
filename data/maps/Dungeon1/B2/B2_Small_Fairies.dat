@@ -1,0 +1,521 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Dungeon1",
+  floor = -2,
+  tileset = "dungeon/blue",
+  music = "great_fairy",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "899",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = -8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-3b",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3b",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = -8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-3b",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  enabled_at_start = false,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  enabled_at_start = false,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  enabled_at_start = false,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  enabled_at_start = false,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 112,
+  height = 80,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 72,
+  width = 112,
+  height = 8,
+  pattern = "alter_floor.1",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "alter_floor.3",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "alter_floor.4",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 160,
+  width = 112,
+  height = 8,
+  pattern = "alter_floor.2",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 160,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 160,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "fairy_fountain.1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-3",
+}
+
+pickable{
+  layer = 0,
+  x = 112,
+  y = 101,
+  treasure_name = "consumables/fairy",
+}
+
+pickable{
+  layer = 0,
+  x = 192,
+  y = 93,
+  treasure_name = "consumables/fairy",
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 141,
+  treasure_name = "consumables/fairy",
+}
+
+pickable{
+  layer = 0,
+  x = 128,
+  y = 141,
+  treasure_name = "consumables/fairy",
+}
+
+pickable{
+  name = "bottle",
+  layer = 0,
+  x = 160,
+  y = 125,
+  treasure_name = "inventory/bottle_1",
+  treasure_savegame_variable = "bottle_obtained",
+}
+
+teletransporter{
+  layer = 0,
+  x = 256,
+  y = 176,
+  width = 16,
+  height = 16,
+  destination_map = "Dungeon1/F2_Hole_Mini_Game",
+  destination = "Fairies_Dest",
+  sprite = "entities/teletransporter",
+  sound = "warp",
+}
+
+chest{
+  name = "B2_Small_Fairies_Chest",
+  layer = 0,
+  x = 160,
+  y = 53,
+  enabled_at_start = false,
+  treasure_name = "consumables/piece_of_heart",
+  treasure_savegame_variable = "B2_Small_Fairies_Chest_Obtained",
+  sprite = "entities/chest",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = -8,
+  enabled_at_start = false,
+  width = 288,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 16,
+  enabled_at_start = false,
+  width = 24,
+  height = 208,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 224,
+  enabled_at_start = false,
+  width = 288,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = -8,
+  y = 16,
+  enabled_at_start = false,
+  width = 24,
+  height = 208,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = -8,
+  width = 336,
+  height = 256,
+  pattern = "2231",
+}
+
