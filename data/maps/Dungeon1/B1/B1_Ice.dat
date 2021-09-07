@@ -717,7 +717,6 @@ tile{
   layer = 0,
   x = 184,
   y = 136,
-  enabled_at_start = false,
   width = 8,
   height = 24,
   pattern = "barrier.2-1",
@@ -901,7 +900,7 @@ teletransporter{
   y = 112,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/B1_Entrance",
+  destination_map = "Dungeon1/B1/B1_Entrance",
   destination = "Entrance_B1_WDoor_Dest",
 }
 

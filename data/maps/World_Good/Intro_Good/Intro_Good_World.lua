@@ -31,8 +31,18 @@ function map:on_started()
     pullingsoldier:set_position(x + 38, y)
     NGuard:set_position(x + 38, y + 16)
     SGuard:set_position(x, y + 64)
-    NGuard.behaviour = "dialog#Intro_World_Good.NGuard" --TODO : Changer le dialog afficher du NPC
-    SGuard.behaviour = "dialog#Intro_World_Good.SGuard" --TODO : Changer le dialog afficher du NPC
+  end
+
+  function NGuard:on_interaction()
+    if game:get_value("Container_Heart_1") then
+     game:start_dialog("Intro_World_Good.NGuard")
+    end
+  end
+
+  function SGuard:on_interaction()
+    if game:get_value("Container_Heart_1") then
+      game:start_dialog("Intro_World_Good.NGuard")
+    end 
   end
 
   function Intro_Good_World_HLDoor_Capt:on_activated()

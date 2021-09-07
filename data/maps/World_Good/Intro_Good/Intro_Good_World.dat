@@ -25423,7 +25423,7 @@ teletransporter{
   y = 424,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/F1_Entrance",
+  destination_map = "Dungeon1/F1/F1_Entrance",
   destination = "EntréeBlueCastleTriforce",
 }
 

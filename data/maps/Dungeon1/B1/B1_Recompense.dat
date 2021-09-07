@@ -647,7 +647,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/B1_Boss",
+  destination_map = "Dungeon1/B1/B1_Boss",
   destination = "Boss_B1_NDoor_Dest",
 }
 
@@ -659,7 +659,7 @@ teletransporter{
   enabled_at_start = false,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/B1_Entrance",
+  destination_map = "Dungeon1/B1/B1_Entrance",
   destination = "B1_Entrance_Warp_Dest",
   sprite = "entities/teletransporter",
   sound = "warp",

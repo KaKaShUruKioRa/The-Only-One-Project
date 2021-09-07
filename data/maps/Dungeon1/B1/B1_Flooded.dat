@@ -42,7 +42,6 @@ tile{
   layer = 0,
   x = 0,
   y = 16,
-  enabled_at_start = false,
   width = 24,
   height = 208,
   pattern = "wall_low.4-1",
@@ -52,7 +51,6 @@ tile{
   layer = 0,
   x = 16,
   y = 40,
-  enabled_at_start = false,
   width = 24,
   height = 160,
   pattern = "wall_low.3-1",
@@ -134,7 +132,6 @@ tile{
   layer = 0,
   x = 16,
   y = 0,
-  enabled_at_start = false,
   width = 288,
   height = 24,
   pattern = "wall_low.2-1",
@@ -144,7 +141,6 @@ tile{
   layer = 0,
   x = 40,
   y = 16,
-  enabled_at_start = false,
   width = 240,
   height = 24,
   pattern = "wall_low.1-1",
@@ -172,7 +168,6 @@ tile{
   layer = 0,
   x = 280,
   y = 40,
-  enabled_at_start = false,
   width = 24,
   height = 160,
   pattern = "wall_low.4-1",
@@ -182,7 +177,6 @@ tile{
   layer = 0,
   x = 40,
   y = 200,
-  enabled_at_start = false,
   width = 240,
   height = 24,
   pattern = "wall_low.2-1",
@@ -741,7 +735,6 @@ tile{
   layer = 0,
   x = 200,
   y = 40,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "waterfall.1.bottom",
@@ -781,7 +774,7 @@ teletransporter{
   y = 112,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/B1_Entrance",
+  destination_map = "Dungeon1/B1/B1_Entrance",
   destination = "B1_Entrance_EDoor_Dest",
 }
 
@@ -819,6 +812,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "Dungeon1/B1/B1_Great_Fairy",
+  destination = "Cave_SDoor_dest",
 }
 
 tile{
