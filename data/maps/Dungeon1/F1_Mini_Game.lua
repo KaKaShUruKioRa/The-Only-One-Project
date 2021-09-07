@@ -32,11 +32,28 @@ local game = map:get_game()
   end
 ------------------------------------------------------------
 ------------------------------------------------------------
+function hero:on_obstacle_reached(movement)
+    local hero_pos = {hero:get_position()} --récupère une table de 2 valeurs {x, y} position du héros
+    local open_acces = {open_acces_3:get_position()} --récupère une table de 2 valeurs les {x, y}  position de la p'tite barrière
+    if hero_pos[1] >= open_acces[1]-6 and hero_pos[1] <= (open_acces[1] + 96) then
+      if hero_pos[2] >= open_acces[2]-2 and hero_pos[2] <= (open_acces[2] + 16) then
+        hero:start_jumping(2, 6, true) -- débloque le héro en le faisant jump en haut de 6px
+      end
+    end 
+    local open_acces = {open_acces_1:get_position()} --récupère une table de 2 valeurs les {x, y}  position de la p'tite barrière
+    if hero_pos[1] >= open_acces[1]+6 and hero_pos[1] <= (open_acces[1] + 96) then
+      if hero_pos[2] >= open_acces[2]+2 and hero_pos[2] <= (open_acces[2] + 16) then
+        hero:start_jumping(2, 6, true) -- débloque le héro en le faisant jump en haut de 6px
+      end
+    end
+end
 
-function map:on_started()
+function map:on_started()  
   if game:get_value("mini_game_victory") then
     map:set_entities_enabled("soldier_target_", false)
     map:set_entities_enabled("open_acces_", true)
+
+
   else
   end
 if game:get_value("To_Fairies_Activated") then
@@ -73,6 +90,6 @@ end
         end
     end
 
-function map:on_opening_transition_finished()
-  
+function map:on_opening_transition_finished()  
+
 end

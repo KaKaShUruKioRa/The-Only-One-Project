@@ -835,6 +835,7 @@ file{ path = "languages", license = "CC BY-SA 4.0" }
 file{ path = "languages/en/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "languages/fr/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }

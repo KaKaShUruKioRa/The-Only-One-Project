@@ -675,6 +675,7 @@ chest{
   sprite = "entities/big_chest",
   opening_method = "interaction_if_item",
   opening_condition = "dungeons/big_key",
+  opening_condition_consumed = true,
   cannot_open_dialog = "NoBigKey",
 }
 

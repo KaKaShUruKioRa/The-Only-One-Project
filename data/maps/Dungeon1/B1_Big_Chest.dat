@@ -715,15 +715,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 128,
-  y = 136,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-2",
-}
-
-tile{
-  layer = 0,
   x = 120,
   y = 176,
   width = 8,
@@ -1075,6 +1066,16 @@ destination{
   y = 141,
   enabled_at_start = false,
   direction = 3,
+}
+
+dynamic_tile{
+  name = "blockin_barrier",
+  layer = 0,
+  x = 128,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
 }
 
 tile{

@@ -237,6 +237,16 @@ Il te faut une petite clé pour ça !
 }
 
 dialog{
+  id = "World_Good.Sewer.EndGame",
+  text = [[
+Bravo à vous !
+Vous avez terminé le jeu.
+Vous pouvez continuer à vous balader si vous le 
+souhaitez mais il n'y a pas grand chose de plus.
+]],
+}
+
+dialog{
   id = "World_Good.Sewer.RupeeDoor",
   text = [[
 Insérez 20 Rubis en tirant la porte !

@@ -12,17 +12,23 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-if game:get_value("Sewer_Wwall_Exploded") then
-Sewer_SDungeon1_Wwall_Wall:set_enabled(false)
-Sewer_SDungeon1_Wwall_Bord:set_enabled(false)
-Sewer_SDungeon1_Wwall_TopDoor:set_enabled(true)
-end
+  if game:get_value("Sewer_Wwall_Exploded") then
+    Sewer_SDungeon1_Wwall_Wall:set_enabled(false)
+    Sewer_SDungeon1_Wwall_Bord:set_enabled(false)
+    Sewer_SDungeon1_Wwall_TopDoor:set_enabled(true)
+  end
+
+  if game:get_value("bomb_obtained") and not game:get_value("info_end") then
+    sol.audio.play_sound("secret")
+    game:start_dialog("World_Good.Sewer.EndGame")
+    game:set_value("info_end", true)
+  end
 end
 
 function Sewer_SDungeon1_Wwall:on_opened()
-Sewer_SDungeon1_Wwall_Wall:set_enabled(false)
-Sewer_SDungeon1_Wwall_Bord:set_enabled(false)
-Sewer_SDungeon1_Wwall_TopDoor:set_enabled(true)
+  Sewer_SDungeon1_Wwall_Wall:set_enabled(false)
+  Sewer_SDungeon1_Wwall_Bord:set_enabled(false)
+  Sewer_SDungeon1_Wwall_TopDoor:set_enabled(true)
 end
 
 
