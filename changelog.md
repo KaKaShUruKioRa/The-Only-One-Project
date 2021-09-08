@@ -43,9 +43,9 @@ __------------------------------------------------------------------------------
 
 📝**Texte** :
 - Correction Orthographique :
-.Indice Gourou
-.Indice Porte Rubis
-.Obtention de l'Arc
+Indice Gourou
+Indice Porte Rubis
+Obtention de l'Arc
 
 __--------------------------------------------------------------------------------------------__
 
