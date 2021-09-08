@@ -41,19 +41,19 @@ __------------------------------------------------------------------------------
 - __Salle de la Grande Fée__ : Le porte-flamme a été remis dans un sens plus... logique. :wink: 
 - __Salles de Donjon__ : Correction des plafonds.
 
-📝**Texte** :
-- Correction Orthographique :
-Indice Gourou
-Indice Porte Rubis
-Obtention de l'Arc
-
-__--------------------------------------------------------------------------------------------__
-
-`Changements du 21 Avril 2019` v0.1.1
-
-🐛__Correction__ : ont désormais bien sauvegardé et restituée à la recharge.
-🛠__Suppression__ des séparateurs dans les égouts (Sewer_Sword)
-🗺Ajout de mur pour empêcher le héro de marcher sur le mur au niveau des escaliers dans les égouts (Sewer_Sword)
-🗺Agrandissement du jumper qui laisser le joueur se bloqué sur le mur des égouts (Sewer_Sword)
-🗺Séparateur modifié sur l'Overworld  de l'intro qui pouvait bloquer le hero près du château (Intro_Good_World)
-🗺Quelques modifications graphique au-dessus des gardes dans l'Overworld de l'intro (Intro_Good_World)
+📝**Texte** :  
+- Correction Orthographique :  
+.Indice Gourou  
+.Indice Porte Rubis  
+.Obtention de l'Arc  
+  
+__--------------------------------------------------------------------------------------------__  
+  
+`Changements du 21 Avril 2019` v0.1.1  
+  
+🐛__Correction__ : ont désormais bien sauvegardé et restituée à la recharge.  
+🛠__Suppression__ des séparateurs dans les égouts (Sewer_Sword)  
+🗺Ajout de mur pour empêcher le héro de marcher sur le mur au niveau des escaliers dans les égouts (Sewer_Sword)  
+🗺Agrandissement du jumper qui laisser le joueur se bloqué sur le mur des égouts (Sewer_Sword)  
+🗺Séparateur modifié sur l'Overworld  de l'intro qui pouvait bloquer le hero près du château (Intro_Good_World)  
+🗺Quelques modifications graphique au-dessus des gardes dans l'Overworld de l'intro (Intro_Good_World)  
