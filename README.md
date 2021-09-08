@@ -3,11 +3,11 @@
 # The Only One Projet
 
 **The Only One Projet** est une petite aventure hardcore avec un pré-donjon, et un gros donjon avec pleins d'énigmes tordus, un mini-boss 'rigolo', et un gros boss final original dans son pattern !
-- **Sortie:** 9 Septembre 2021
-- **Joueurs:** 1
-- **Durée:** 1-2 Heures
-- **Licenses:** GPL v3, CC BY-SA 4.0, 
-- **Langages:** Français, Anglais
+- **Sortie :** 9 Septembre 2021
+- **Joueurs :** 1
+- **Durée :** 1-2 Heures
+- **Licenses :** GPL v3, CC BY-SA 4.0, 
+- **Langages :** Français, Anglais
 
 ## Scénario
 

@@ -25,13 +25,13 @@
 __--------------------------------------------------------------------------------------------------------------__
 
 `Changements du 29 Avril 2019` v0.1.2
-:map: **Overworld**
+🗺**Overworld**
 - Correction des Jumpers Sud Pour éviter que le héro se bloque, et qu'il puisse sauter.
 - Correction des Jumpers Nord qui permet au joueur d'allez se noyer, Yahoi !
 - __Maison de Link__ : Le héro de passe plus en dessous de la Marmite. Chaud !
 - __Egout avec Epée__ : ajout de rats (Pas de Ragoût)
 
-:map: **Donjon**
+🗺**Donjon**
 - Les portes à clés vous indique désormais qu'il faut une clé pour les ouvrir.
 - __Salle Sableux__ : Ajout de Torches au mur
 - __Salle Grand Clé__ : Les Poteaux sont remis sur la bonne couche. / La porte aux Rubis, Vous informez si vous ne possédé pas assez de Rubis pour l'ouvrir
@@ -42,19 +42,19 @@ __------------------------------------------------------------------------------
 - __Salle de la Grande Fée__ : Le porte-flamme a été remis dans un sens plus... logique. :wink: 
 - __Salles de Donjon__ : Correction des plafonds.
 
-:pencil: **Texte** :
-- Correction Orthographique :
-.Indice Gourou
-.Indice Porte Rubis
-.Obtention de l'Arc
-
-__--------------------------------------------------------------------------------------------------------------__
-
-`Changements du 21 Avril 2019` v0.1.1
-
-🐛Correction : Les Flèches et Bombes sont désormais bien sauvegardé et restituée à la recharge.
-🛠Suppression des séparateurs dans les égouts (Sewer_Sword)
-🗺:Ajout de mur pour empêcher le héro de marcher sur le mur au niveau des escaliers dans les égouts (Sewer_Sword)
-🗺:Agrandissement du jumper qui laisser le joueur se bloqué sur le mur des égouts (Sewer_Sword)
-🗺: Séparateur modifié sur l'Overworld  de l'intro qui pouvait bloquer le hero près du château (Intro_Good_World)
-🗺:Quelques modifications graphique au-dessus des gardes dans l'Overworld de l'intro (Intro_Good_World)
+📝**Texte**
+- Correction Orthographique :  
+.Indice Gourou  
+.Indice Porte Rubis  
+.Obtention de l'Arc  
+  
+__--------------------------------------------------------------------------------------------------------------__  
+  
+`Changements du 21 Avril 2019` v0.1.1  
+  
+🐛Correction : Les Flèches et Bombes sont désormais bien sauvegardé et restituée à la recharge.  
+🛠Suppression des séparateurs dans les égouts (Sewer_Sword)  
+🗺:Ajout de mur pour empêcher le héro de marcher sur le mur au niveau des escaliers dans les égouts (Sewer_Sword)  
+🗺:Agrandissement du jumper qui laisser le joueur se bloqué sur le mur des égouts (Sewer_Sword)  
+🗺: Séparateur modifié sur l'Overworld  de l'intro qui pouvait bloquer le hero près du château (Intro_Good_World)  
+🗺:Quelques modifications graphique au-dessus des gardes dans l'Overworld de l'intro (Intro_Good_World)  
