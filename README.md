@@ -3,11 +3,11 @@
 # The Only One Projet
 
 **The Only One Projet** est une petite aventure hardcore avec un pré-donjon, et un gros donjon avec pleins d'énigmes tordus, un mini-boss 'rigolo', et un gros boss final original dans son pattern !
-- **Release 9 Septembre 2021
-- **Players:** 1
-- **Length:** 1-2 Heures
-- **License:** GPL v3, CC BY-SA 4.0, 
-- **Languages:** Français, Anglais
+- **Sortie:** 9 Septembre 2021
+- **Joueurs:** 1
+- **Durée:** 1-2 Heures
+- **Licenses:** GPL v3, CC BY-SA 4.0, 
+- **Langages:** Français, Anglais
 
 ## Scénario
 
@@ -19,4 +19,4 @@ Les gardes bloquant l'accès au château, **Link** devra trouver une autre issue
 
 ### Durée de vie
 
-Pour les joueurs les moins à l'aise avec les Zelda 2D, les modes difficiles/harcore, et les puzzles tordus, cela pourrait vous prendre entre 1 à 2 heures.
+Pour les joueurs les moins à l'aise avec les Zelda 2D, les modes difficiles/harcores, et les puzzles tordus, cela pourrait vous prendre 1 à 2 heures.
