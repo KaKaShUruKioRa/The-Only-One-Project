@@ -48,10 +48,11 @@ __------------------------------------------------------------------------------
 .Obtention de l'Arc
 
 __--------------------------------------------------------------------------------------------__
+
 `Changements du 21 Avril 2019` v0.1.1
 
-🐛Correction : ont désormais bien sauvegardé et restituée à la recharge.
-🛠Suppression des séparateurs dans les égouts (Sewer_Sword)
+🐛__Correction__ : ont désormais bien sauvegardé et restituée à la recharge.
+🛠__Suppression__ des séparateurs dans les égouts (Sewer_Sword)
 🗺Ajout de mur pour empêcher le héro de marcher sur le mur au niveau des escaliers dans les égouts (Sewer_Sword)
 🗺Agrandissement du jumper qui laisser le joueur se bloqué sur le mur des égouts (Sewer_Sword)
 🗺Séparateur modifié sur l'Overworld  de l'intro qui pouvait bloquer le hero près du château (Intro_Good_World)
