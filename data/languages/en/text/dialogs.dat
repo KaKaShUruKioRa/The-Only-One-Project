@@ -237,6 +237,15 @@ You need a small key for that!
 }
 
 dialog{
+  id = "World_Good.Guard",
+  text = [[
+Ho ... the weather is nice now!
+
+I think I can relax from now on !
+]],
+}
+
+dialog{
   id = "World_Good.Sewer.EndGame",
   text = [[
 Congratulations to you !

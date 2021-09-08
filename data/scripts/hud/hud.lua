@@ -10,12 +10,11 @@ local hud_config = require("scripts/hud/hud_config")
 local function initialize_hud_features(game)
 
   if game.set_hud_enabled ~= nil then
-    -- Already done.
-    game:set_hud_enabled(true)
-    return
+    -- Close the previous HUD after game-over.
+    game:set_hud_enabled(false)
   end
 
-  -- Set up the HUD.
+    -- Set up the HUD.
   local hud = {
     enabled = false,
     elements = {},
@@ -32,7 +31,7 @@ local function initialize_hud_features(game)
     hud.elements[#hud.elements + 1] = element
   end
 
-  -- Destroys the HUD.
+    -- Destroys the HUD.
   function hud:quit()
 
     if hud:is_enabled() then
@@ -110,22 +109,10 @@ local function initialize_hud_features(game)
     end
   end
 
-  -- Call this function to notify the HUD that the over is over was just unpaused.
-  local function hud_on_unpaused(game)
-
-    if hud:is_enabled() then
-      for _, menu in ipairs(hud.elements) do
-        if menu.on_unpaused ~= nil then
-          menu:on_unpaused()
-        end
-      end
-    end
-  end
-
-
   game:register_event("on_map_changed", hud_on_map_changed)
   game:register_event("on_paused", hud_on_paused)
   game:register_event("on_unpaused", hud_on_unpaused)
+
   -- Start the HUD.
   hud:set_enabled(true)
 end
