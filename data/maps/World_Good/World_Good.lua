@@ -25,21 +25,12 @@ local RNGdrop = require("scripts/algo/random_destructible")
 
 function map:on_started()
 
-  if game:get_value("Container_Heart_1") then
-    local x, y = block_cave_locked:get_position()
-    block_cave_locked:set_position(x + 20, y)
-    pullingsoldier:set_position(x + 38, y)
-    NGuard:set_position(x + 38, y + 16)
-    SGuard:set_position(x, y + 64)
-    NGuard.behaviour = "dialog#Intro_World_Good.NGuard" --TODO : Changer le dialog afficher du NPC
-    SGuard.behaviour = "dialog#Intro_World_Good.SGuard" --TODO : Changer le dialog afficher du NPC
-  end
-
   function Intro_Good_World_HLDoor_Capt:on_activated()
     Intro_Good_World_HLDoor:set_enabled(false)
     sol.audio.play_sound("door_open")
     Intro_Good_World_HLDoor_Capt:set_enabled(false)
   end
+
   function Dungeon1_Door_Capt:on_activated()
     dungeon1_door:set_enabled(false)
     sol.audio.play_sound("door_open")

@@ -237,6 +237,15 @@ Il te faut une petite clé pour ça !
 }
 
 dialog{
+  id = "World_Good.Guard",
+  text = [[
+Ho... il fait beau maintenant !
+
+Je pense pouvoir me détendre désormais !
+]],
+}
+
+dialog{
   id = "World_Good.Sewer.EndGame",
   text = [[
 Bravo à vous !

@@ -1078,6 +1078,15 @@ dynamic_tile{
   pattern = "barrier.border-2",
 }
 
+sensor{
+  name = "unlocker_bigchest",
+  layer = 0,
+  x = 128,
+  y = 133,
+  width = 64,
+  height = 32,
+}
+
 tile{
   layer = 1,
   x = 16,

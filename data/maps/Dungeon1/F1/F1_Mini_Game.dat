@@ -613,6 +613,15 @@ teletransporter{
   destination = "_same",
 }
 
+sensor{
+  name = "unlocker_minigame",
+  layer = 0,
+  x = 48,
+  y = 141,
+  width = 240,
+  height = 32,
+}
+
 tile{
   layer = 1,
   x = 136,

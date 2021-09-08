@@ -14,6 +14,7 @@ local RNGdrop = require("scripts/algo/random_destructible")
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
+
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
@@ -33,15 +34,21 @@ function map:on_started()
     SGuard:set_position(x, y + 64)
   end
 
-  function NGuard:on_interaction()
+  function NGuard:on_interaction() -- Passez pas une table d'entites via la map
+  print("nguard game value :", game:get_value("Container_Heart_1"))
     if game:get_value("Container_Heart_1") then
      game:start_dialog("Intro_World_Good.NGuard")
+    else
+      game:start_dialog("Intro_World_Good.No_Trepassing")
     end
   end
 
-  function SGuard:on_interaction()
+  function SGuard:on_interaction() -- Passez pas une table d'entites via la map
+  print("sguard game value :",game:get_value("Container_Heart_1"))
     if game:get_value("Container_Heart_1") then
       game:start_dialog("Intro_World_Good.NGuard")
+    else
+      game:start_dialog("Intro_World_Good.No_Trepassing")
     end 
   end
 
