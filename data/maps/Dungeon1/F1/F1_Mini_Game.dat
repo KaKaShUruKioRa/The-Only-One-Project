@@ -1,0 +1,831 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Dungeon1",
+  floor = 0,
+  tileset = "dungeon/blue",
+  music = "mini_game",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 216,
+  width = 288,
+  height = 24,
+  pattern = "wall.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 152,
+  width = 240,
+  height = 48,
+  pattern = "floor.17-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 240,
+  height = 96,
+  pattern = "floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 24,
+  pattern = "wall.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 16,
+  width = 24,
+  height = 208,
+  pattern = "wall.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 24,
+  height = 208,
+  pattern = "wall.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "865",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 144,
+  width = 240,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_up.1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 152,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 136,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "floor.cracked.2-Alpha",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 8,
+  height = 224,
+  pattern = "door_top.low.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "floor.7-Alpha",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 96,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "Dungeon1/F1/F1_Bassin",
+  destination = "exploedwall_bassin",
+}
+
+destructible{
+  name = "nepasbouger",
+  layer = 0,
+  x = 56,
+  y = 189,
+  treasure_name = "consumables/arrow_refill",
+  treasure_variant = 2,
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 173,
+  treasure_name = "consumables/arrow_refill",
+  treasure_variant = 2,
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+enemy{
+  name = "soldier_target_back_1",
+  layer = 0,
+  x = 56,
+  y = 61,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_back_2",
+  layer = 0,
+  x = 112,
+  y = 61,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_back_3",
+  layer = 0,
+  x = 160,
+  y = 61,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_back_4",
+  layer = 0,
+  x = 80,
+  y = 85,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_back_5",
+  layer = 0,
+  x = 144,
+  y = 85,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_back_6",
+  layer = 0,
+  x = 192,
+  y = 85,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+}
+
+enemy{
+  name = "soldier_target_mid_1",
+  layer = 0,
+  x = 96,
+  y = 109,
+  direction = 0,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_variant = 2,
+}
+
+enemy{
+  name = "soldier_target_mid_2",
+  layer = 0,
+  x = 176,
+  y = 109,
+  direction = 0,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_variant = 2,
+}
+
+enemy{
+  name = "soldier_target_front_1",
+  layer = 0,
+  x = 64,
+  y = 125,
+  direction = 0,
+  breed = "soldiers/spear_soldier_red",
+  treasure_variant = 3,
+}
+
+enemy{
+  name = "soldier_target_front_2",
+  layer = 0,
+  x = 128,
+  y = 125,
+  direction = 0,
+  breed = "soldiers/spear_soldier_red",
+  treasure_variant = 3,
+}
+
+destructible{
+  name = "nepasbouger_2",
+  layer = 0,
+  x = 56,
+  y = 173,
+  treasure_name = "consumables/arrow_refill",
+  treasure_variant = 2,
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 189,
+  treasure_name = "consumables/arrow_refill",
+  treasure_variant = 2,
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+dynamic_tile{
+  name = "open_acces_1",
+  layer = 0,
+  x = 128,
+  y = 144,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+dynamic_tile{
+  name = "open_acces_3",
+  layer = 0,
+  x = 184,
+  y = 145,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+destination{
+  name = "access_F1_dest",
+  layer = 0,
+  x = 160,
+  y = 37,
+  direction = 3,
+}
+
+teletransporter{
+  name = "access_F1toF2_tp",
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Dungeon1/F2/F2_Hole_Mini_Game",
+  destination = "F2_Hole_Mini_Game_NStair_Dest",
+}
+
+stairs{
+  name = "stair_F1toF2",
+  layer = 0,
+  x = 152,
+  y = 24,
+  direction = 1,
+  subtype = 0,
+}
+
+dynamic_tile{
+  name = "open_acces_2",
+  layer = 0,
+  x = 136,
+  y = 144,
+  enabled_at_start = false,
+  width = 48,
+  height = 8,
+  pattern = "floor_border.1",
+}
+
+dynamic_tile{
+  name = "To_Fairies_2",
+  layer = 0,
+  x = 200,
+  y = 96,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "1792",
+}
+
+teletransporter{
+  name = "To_Fairies_1",
+  layer = 0,
+  x = 200,
+  y = 96,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "Dungeon1/B1/B1_Great_Fairy",
+  destination = "_same",
+}
+
+sensor{
+  name = "unlocker_minigame",
+  layer = 0,
+  x = 48,
+  y = 141,
+  width = 240,
+  height = 32,
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.blast.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 16,
+  width = 64,
+  height = 8,
+  pattern = "door_top.low.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 160,
+  width = 16,
+  height = 32,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 160,
+  width = 16,
+  height = 32,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 224,
+  width = 288,
+  height = 8,
+  pattern = "door_top.low.1-5",
+}
+
+tile{
+  layer = 2,
+  x = 8,
+  y = 0,
+  width = 8,
+  height = 224,
+  pattern = "door_top.low.4-5",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-5",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 8,
+  width = 128,
+  height = 8,
+  pattern = "door_top.low.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-5",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-5",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-5",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 8,
+  width = 128,
+  height = 8,
+  pattern = "door_top.low.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-5",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "floor.7-Alpha",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 224,
+  width = 320,
+  height = 16,
+  pattern = "floor.7-Alpha",
+}
+

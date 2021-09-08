@@ -3,36 +3,36 @@ map{ id = "BluePrint/ExterieurBp", description = "Exterieur BluePrint" }
 map{ id = "BluePrint/FullCaveBp", description = "Full Cave BluePrint" }
 map{ id = "BluePrint/FullDungeonBp", description = "Full Dungeon BluePrint" }
 map{ id = "BluePrint/FullHouseBp", description = "Full House BluePrint" }
+map{ id = "Dungeon1/B1/B1_BigKey", description = "B1_BigKey" }
+map{ id = "Dungeon1/B1/B1_Big_Chest", description = "B1_Big_Chest" }
+map{ id = "Dungeon1/B1/B1_Boss", description = "B1_Boss" }
+map{ id = "Dungeon1/B1/B1_Entrance", description = "B1_Entrance" }
 map{ id = "Dungeon1/B1/B1_Flooded", description = "B1 Sous-Sol Innondé" }
 map{ id = "Dungeon1/B1/B1_Great_Fairy", description = "B1 Grand Fée !" }
 map{ id = "Dungeon1/B1/B1_Ice", description = "B1 Glacé" }
 map{ id = "Dungeon1/B1/B1_Recompense", description = "B1 Final Big Chest" }
-map{ id = "Dungeon1/B1_BigKey", description = "B1 Sous le Gourou" }
-map{ id = "Dungeon1/B1_Big_Chest", description = "B1 Enigme et Arc" }
-map{ id = "Dungeon1/B1_Boss", description = "B1 Boss Fight" }
-map{ id = "Dungeon1/B1_Entrance", description = "B1 Sous l'Entrée" }
 map{ id = "Dungeon1/B2/B2_Small_Fairies", description = "B2 Petites Fées !" }
-map{ id = "Dungeon1/F1_Bassin", description = "F1 Bassin" }
-map{ id = "Dungeon1/F1_Big_Bassin", description = "F1 Big Bassin" }
-map{ id = "Dungeon1/F1_Demi_Niveau", description = "F1 Demi Niveau" }
-map{ id = "Dungeon1/F1_Entrance", description = "F1 Entrée Dun1" }
-map{ id = "Dungeon1/F1_Falling", description = "F1 Falling" }
-map{ id = "Dungeon1/F1_Fighters", description = "F1 Fighters" }
-map{ id = "Dungeon1/F1_Gourou", description = "F1 Gourou Boss Fight" }
-map{ id = "Dungeon1/F1_Mini_Game", description = "F1 Mini Game" }
-map{ id = "Dungeon1/F1_Push_Block", description = "F1 Enigme Bloc" }
-map{ id = "Dungeon1/F1_Sableux", description = "F1 Sableux Fight " }
-map{ id = "Dungeon1/F1_Secret_Room", description = "F1 Secret Room" }
-map{ id = "Dungeon1/F1_Stoners", description = "F1 Stone Fight" }
+map{ id = "Dungeon1/F1/F1_Bassin", description = "F1_Bassin" }
+map{ id = "Dungeon1/F1/F1_Big_Bassin", description = "F1_Big_Bassin" }
+map{ id = "Dungeon1/F1/F1_Demi_Niveau", description = "F1_Demi_Niveau" }
+map{ id = "Dungeon1/F1/F1_Entrance", description = "F1_Entrance" }
+map{ id = "Dungeon1/F1/F1_Falling", description = "F1_Falling" }
+map{ id = "Dungeon1/F1/F1_Fighters", description = "F1_Fighters" }
+map{ id = "Dungeon1/F1/F1_Gourou", description = "F1_Gourou" }
+map{ id = "Dungeon1/F1/F1_Mini_Game", description = "F1_Mini_Game" }
+map{ id = "Dungeon1/F1/F1_Push_Block", description = "F1_Push_Block" }
+map{ id = "Dungeon1/F1/F1_Sableux", description = "F1_Sableux" }
+map{ id = "Dungeon1/F1/F1_Secret_Room", description = "F1_Secret_Room" }
+map{ id = "Dungeon1/F1/F1_Stoners", description = "F1_Stoners" }
+map{ id = "Dungeon1/F2/F2_Big_Chest", description = "F2_Big_Chest" }
+map{ id = "Dungeon1/F2/F2_Brise_Sol", description = "F2_Brise_Sol" }
 map{ id = "Dungeon1/F2/F2_Flooded", description = "F2 Chambre Innondée" }
-map{ id = "Dungeon1/F2_Big_Chest", description = "F2 Grand Coffre" }
-map{ id = "Dungeon1/F2_Brise_Sol", description = "F2 Brise-Sol" }
-map{ id = "Dungeon1/F2_Hole_Mini_Game", description = "F2 Trou Dessus Mini Game" }
-map{ id = "Dungeon1/F2_Pierce_Heart", description = "F2 Perce-Coeur" }
-map{ id = "Dungeon1/F2_Soldiers_Fight", description = "F2 Soldiers" }
-map{ id = "Dungeon1/Full/B1_Dungeon1", description = "Dungeon1/Full/B1_Dungeon1" }
-map{ id = "Dungeon1/Full/F1_Dungeon1", description = "Dungeon1/Full/F1_Dungeon1" }
-map{ id = "Dungeon1/Full/F2_Dungeon1", description = "Dungeon1/Full/F2_Dungeon1" }
+map{ id = "Dungeon1/F2/F2_Hole_Mini_Game", description = "F2_Hole_Mini_Game" }
+map{ id = "Dungeon1/F2/F2_Pierce_Heart", description = "F2_Pierce_Heart" }
+map{ id = "Dungeon1/F2/F2_Soldiers_Fight", description = "F2_Soldiers_Fight" }
+map{ id = "Dungeon1/Full/B1_Dungeon1", description = "B1_Dungeon1" }
+map{ id = "Dungeon1/Full/F1_Dungeon1", description = "F1_Dungeon1" }
+map{ id = "Dungeon1/Full/F2_Dungeon1", description = "F2_Dungeon1" }
 map{ id = "EXTERIEUR2/Ext2East", description = "Ext2East" }
 map{ id = "EXTERIEUR2/Ext2MiddleEast", description = "Ex2tMiddleEast" }
 map{ id = "EXTERIEUR2/Ext2MiddleWest", description = "Ext2MiddleWest" }
@@ -41,12 +41,11 @@ map{ id = "EXTERIEUR2/Ext2NorthWest", description = "Ext2NorthWest" }
 map{ id = "EXTERIEUR2/Ext2West", description = "Ext2West" }
 map{ id = "Ext1Hub", description = "Ext1Hub" }
 map{ id = "Ext1TEST", description = "Ext1TEST" }
-map{ id = "INTERRIEUR1/shop1", description = "Shop" }
-map{ id = "INTERRIEUR2/DefiFloor_F1", description = "DefiFloor_F1" }
-map{ id = "INTERRIEUR2/DefiFloor_F2", description = "DefiFloor_F2" }
-map{ id = "INTERRIEUR2/Int2Cave1", description = "Int2Cave1" }
-map{ id = "INTERRIEUR2/Int2Cave2NPC", description = "Int2Cave2NPC" }
-map{ id = "IdeeTileSets/BlueDungeon", description = "Tile Ideas" }
+map{ id = "INTERIEUR1/shop1", description = "Shop" }
+map{ id = "INTERIEUR2/DefiFloor_F1", description = "DefiFloor_F1" }
+map{ id = "INTERIEUR2/DefiFloor_F2", description = "DefiFloor_F2" }
+map{ id = "INTERIEUR2/Int2Cave1", description = "Int2Cave1" }
+map{ id = "INTERIEUR2/Int2Cave2NPC", description = "Int2Cave2NPC" }
 map{ id = "World_Bad/World_Bad" }
 map{ id = "World_Good/House/Link/House_Link", description = "World_Good/House/Link/Link_House" }
 map{ id = "World_Good/Intro_Good/Intro_Good_World", description = "Intro du gameplay/scénario" }
@@ -57,16 +56,6 @@ map{ id = "World_Good/Sewer/Sewer_SDun1", description = "Sewer South Dungeon 1" 
 map{ id = "World_Good/Sewer/Sewer_Sword", description = "Sewer Enigme East Dun1" }
 map{ id = "World_Good/Sewer/Sewer_WCenter", description = "Sewer West Center" }
 map{ id = "World_Good/World_Good", description = "World_Good" }
-map{ id = "examples/light_world/eastern_palace", description = "Eastern Palace" }
-map{ id = "examples/light_world/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
-map{ id = "examples/light_world/entrance_to_zoras_river", description = "Entrance to Zoras River" }
-map{ id = "examples/light_world/fortune_teller", description = "Fortune Teller" }
-map{ id = "examples/light_world/hyrule_castle", description = "Hyrule Castle" }
-map{ id = "examples/light_world/kakariko_village", description = "Kakariko Village" }
-map{ id = "examples/light_world/links_yard", description = "Links Yard" }
-map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
-map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
-map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
 map{ id = "test_map/cheat", description = "Cheated Map" }
 map{ id = "test_map/test_map", description = "test_map/test_map" }
 
@@ -854,6 +843,14 @@ file{ path = "maps/BluePrint/FullHouseBp.dat", author = "KaKaShUruKioRa", licens
 file{ path = "maps/BluePrint/FullHouseBp.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_BigKey.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_BigKey.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Big_Chest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Big_Chest.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Boss.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Boss.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Entrance.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/B1/B1_Entrance.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1/B1_Flooded.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1/B1_Flooded.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1/B1_Great_Fairy.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -862,54 +859,46 @@ file{ path = "maps/Dungeon1/B1/B1_Ice.dat", author = "KaKaShUruKioRa", license =
 file{ path = "maps/Dungeon1/B1/B1_Ice.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1/B1_Recompense.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B1/B1_Recompense.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_BigKey.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_BigKey.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Big_Chest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Big_Chest.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Boss.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Boss.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Entrance.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/B1_Entrance.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B2", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B2/B2_Small_Fairies.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/B2/B2_Small_Fairies.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Bassin.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Bassin.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Big_Bassin.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Big_Bassin.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Demi_Niveau.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Demi_Niveau.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Entrance.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Entrance.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Falling.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Falling.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Fighters.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Fighters.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Gourou.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Gourou.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Mini_Game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Mini_Game.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Push_Block.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Push_Block.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Sableux.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Sableux.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Secret_Room.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Secret_Room.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Stoners.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F1_Stoners.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Bassin.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Bassin.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Big_Bassin.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Big_Bassin.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Demi_Niveau.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Demi_Niveau.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Entrance.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Entrance.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Falling.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Falling.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Fighters.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Fighters.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Gourou.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Gourou.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Mini_Game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Mini_Game.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Push_Block.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Push_Block.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Sableux.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Sableux.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Secret_Room.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Secret_Room.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Stoners.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F1/F1_Stoners.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/F2", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Big_Chest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Big_Chest.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Brise_Sol.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Brise_Sol.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/F2/F2_Flooded.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/F2/F2_Flooded.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Big_Chest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Big_Chest.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Brise_Sol.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Brise_Sol.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Hole_Mini_Game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Hole_Mini_Game.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Pierce_Heart.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Pierce_Heart.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Soldiers_Fight.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Dungeon1/F2_Soldiers_Fight.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Hole_Mini_Game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Hole_Mini_Game.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Pierce_Heart.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Pierce_Heart.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Soldiers_Fight.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Dungeon1/F2/F2_Soldiers_Fight.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/Full", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/Full/B1_Dungeon1.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/Full/B1_Dungeon1.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -917,9 +906,6 @@ file{ path = "maps/Dungeon1/Full/F1_Dungeon1.dat", author = "KaKaShUruKioRa", li
 file{ path = "maps/Dungeon1/Full/F1_Dungeon1.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/Full/F2_Dungeon1.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Dungeon1/Full/F2_Dungeon1.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/IdeeTileSets", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/IdeeTileSets/BlueDungeon.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/IdeeTileSets/BlueDungeon.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/World_Good", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/World_Good/House", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/World_Good/House/Link", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -931,28 +917,6 @@ file{ path = "maps/World_Good/Intro_Good/Intro_Good_World.lua", author = "KaKaSh
 file{ path = "maps/World_Good/Sewer", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/World_Good/World_Good.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/World_Good/World_Good.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/examples", author = "FFomega", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world", author = "FFomega", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/eastern_palace.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/eastern_palace.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/entrance_to_death_mountain.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/entrance_to_death_mountain.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/entrance_to_zoras_river.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/entrance_to_zoras_river.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/fortune_teller.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/fortune_teller.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/hyrule_castle.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/hyrule_castle.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/kakariko_village.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/kakariko_village.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/links_yard.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/links_yard.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/lost_woods.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/lost_woods.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/lumberjacks_house.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/lumberjacks_house.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.lua", author = "FFomega", license = "GPL v3" }
 file{ path = "maps/test_map", author = "Mehdi Khelifi", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/test_map/test_map.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "maps/test_map/test_map.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -1123,7 +1087,6 @@ file{ path = "sounds/wrong.ogg", author = "Nintendo", license = "Proprietary (Fa
 file{ path = "sounds/zora.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites", license = "Mixed" }
 file{ path = "sprites/destructibles", license = "Mixed" }
-file{ path = "sprites/destructibles/bush.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/bush_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush_purple.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }

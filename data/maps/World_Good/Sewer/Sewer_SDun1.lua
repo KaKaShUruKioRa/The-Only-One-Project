@@ -19,7 +19,7 @@ function map:on_started()
   end
 
   if game:get_value("bomb_obtained") and not game:get_value("info_end") then
-    sol.audio.play_sound("secret")
+    sol.audio.play_sound("victory")
     game:start_dialog("World_Good.Sewer.EndGame")
     game:set_value("info_end", true)
   end

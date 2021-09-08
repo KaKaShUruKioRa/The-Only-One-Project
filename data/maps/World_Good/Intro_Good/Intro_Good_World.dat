@@ -16082,15 +16082,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1320,
-  y = 536,
-  width = 8,
-  height = 8,
-  pattern = "84",
-}
-
-tile{
-  layer = 0,
   x = 1280,
   y = 472,
   width = 240,
@@ -22470,7 +22461,6 @@ npc{
   direction = 0,
   subtype = 1,
   sprite = "npc/soldier_blue",
-  behavior = "dialog#Intro_World_Good.No_Trepassing",
 }
 
 npc{
@@ -22481,7 +22471,6 @@ npc{
   direction = 2,
   subtype = 1,
   sprite = "npc/soldier_blue",
-  behavior = "dialog#Intro_World_Good.No_Trepassing",
 }
 
 destructible{
@@ -25423,7 +25412,7 @@ teletransporter{
   y = 424,
   width = 16,
   height = 16,
-  destination_map = "Dungeon1/F1_Entrance",
+  destination_map = "Dungeon1/F1/F1_Entrance",
   destination = "EntréeBlueCastleTriforce",
 }
 

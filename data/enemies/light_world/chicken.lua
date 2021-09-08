@@ -50,7 +50,7 @@ function enemy:go_random()
 
   angry = false
   local movement = sol.movement.create("random")
-  movement:set_speed(32)
+  movement:set_speed(56)
   movement:start(enemy)
   enemy:set_can_attack(false)
 end

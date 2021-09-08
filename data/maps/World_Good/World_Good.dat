@@ -9156,18 +9156,18 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 712,
-  width = 72,
+  width = 88,
   height = 8,
   pattern = "6161",
 }
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 720,
-  width = 96,
+  width = 112,
   height = 16,
   pattern = "6160",
 }
@@ -9590,7 +9590,7 @@ tile{
   layer = 0,
   x = 1264,
   y = 992,
-  width = 56,
+  width = 72,
   height = 8,
   pattern = "6161",
 }
@@ -9599,7 +9599,7 @@ tile{
   layer = 0,
   x = 1264,
   y = 920,
-  width = 56,
+  width = 72,
   height = 8,
   pattern = "6161",
 }
@@ -10056,9 +10056,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 736,
-  width = 72,
+  width = 88,
   height = 8,
   pattern = "6161",
 }
@@ -16153,15 +16153,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1320,
-  y = 920,
-  width = 8,
-  height = 8,
-  pattern = "84",
-}
-
-tile{
-  layer = 0,
   x = 1296,
   y = 872,
   width = 8,
@@ -16387,24 +16378,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1320,
-  y = 920,
-  width = 8,
-  height = 8,
-  pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 1320,
-  y = 992,
-  width = 8,
-  height = 8,
-  pattern = "6164",
-}
-
-tile{
-  layer = 0,
   x = 1328,
   y = 984,
   width = 8,
@@ -16437,33 +16410,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 1328,
-  y = 952,
-  width = 8,
-  height = 8,
-  pattern = "13875",
-}
-
-tile{
-  layer = 0,
-  x = 1328,
-  y = 976,
-  width = 8,
-  height = 8,
-  pattern = "13874",
-}
-
-tile{
-  layer = 0,
-  x = 1328,
-  y = 936,
-  width = 8,
-  height = 8,
-  pattern = "13874",
 }
 
 tile{
@@ -19600,7 +19546,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 712,
   width = 8,
   height = 8,
@@ -19636,56 +19582,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 736,
   width = 8,
   height = 8,
   pattern = "6164",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 720,
-  width = 8,
-  height = 8,
-  pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 728,
-  width = 8,
-  height = 8,
-  pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 720,
-  width = 8,
-  height = 8,
-  pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 728,
-  width = 8,
-  height = 8,
-  pattern = "6163",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 720,
-  width = 8,
-  height = 8,
-  pattern = "6163",
 }
 
 tile{
@@ -22181,6 +22082,69 @@ tile{
   pattern = "1111",
 }
 
+tile{
+  layer = 0,
+  x = 1288,
+  y = 976,
+  width = 16,
+  height = 16,
+  pattern = "6122",
+}
+
+tile{
+  layer = 0,
+  x = 1312,
+  y = 952,
+  width = 16,
+  height = 16,
+  pattern = "6121",
+}
+
+tile{
+  layer = 0,
+  x = 1328,
+  y = 936,
+  width = 8,
+  height = 8,
+  pattern = "6161",
+}
+
+tile{
+  layer = 0,
+  x = 1328,
+  y = 952,
+  width = 8,
+  height = 8,
+  pattern = "6161",
+}
+
+tile{
+  layer = 0,
+  x = 1328,
+  y = 968,
+  width = 8,
+  height = 16,
+  pattern = "6161",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 704,
+  width = 8,
+  height = 8,
+  pattern = "6164",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "6164",
+}
+
 separator{
   layer = 0,
   x = 1592,
@@ -22390,7 +22354,7 @@ teletransporter{
 block{
   name = "block_cave_locked",
   layer = 0,
-  x = 1024,
+  x = 1048,
   y = 861,
   sprite = "entities/statue",
   pushable = false,
@@ -22400,7 +22364,7 @@ block{
 npc{
   name = "pullingsoldier",
   layer = 0,
-  x = 1040,
+  x = 1064,
   y = 861,
   direction = 1,
   subtype = 1,
@@ -22409,25 +22373,14 @@ npc{
 }
 
 npc{
-  name = "NGuard",
-  layer = 0,
-  x = 1160,
-  y = 933,
-  direction = 0,
-  subtype = 1,
-  sprite = "npc/soldier_blue",
-  behavior = "dialog#Intro_World_Good.No_Trepassing",
-}
-
-npc{
   name = "SGuard",
   layer = 0,
-  x = 1152,
-  y = 957,
+  x = 1024,
+  y = 925,
   direction = 2,
   subtype = 1,
   sprite = "npc/soldier_blue",
-  behavior = "dialog#Intro_World_Good.No_Trepassing",
+  behavior = "dialog#World_Good.Guard",
 }
 
 destructible{
@@ -26875,17 +26828,6 @@ destructible{
 }
 
 destructible{
-  name = "pick_376",
-  layer = 0,
-  x = 384,
-  y = 733,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
   name = "pick_377",
   layer = 0,
   x = 368,
@@ -27452,6 +27394,17 @@ destination{
   x = 552,
   y = 1437,
   direction = 1,
+}
+
+npc{
+  name = "NGuard",
+  layer = 0,
+  x = 1064,
+  y = 877,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/soldier_blue",
+  behavior = "dialog#World_Good.Guard",
 }
 
 tile{
