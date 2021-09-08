@@ -24,7 +24,7 @@
 
 __--------------------------------------------------------------------------------------------------------------__
 
-`Changements du 29 Avril 2019` v0.1.2
+`Changements du 29 Avril 2019` v0.1.2  
 🗺**Overworld**
 - Correction des Jumpers Sud Pour éviter que le héro se bloque, et qu'il puisse sauter.
 - Correction des Jumpers Nord qui permet au joueur d'allez se noyer, Yahoi !
