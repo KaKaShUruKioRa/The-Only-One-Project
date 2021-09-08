@@ -1,13 +1,27 @@
 quest{
-  solarus_version = "1.6",
+  solarus_version = "1.6.5",
   write_dir = "The Legend of Zelda The Only One",
   title = "The Legend of Zelda : The Only One",
-  short_description = "Un donjon unique (pour le moment ?)",
+  short_description = "The Only One Project est une petite aventure hardcore avec un pré-donjon, et un gros donjon avec pleins d'énigmes tordus, un mini-boss 'rigolo', et un gros boss final original dans son pattern !",
   long_description = [[
-Une aventure qui se déroule dans l'univers de Zelda avec un unique donjon (pour le moment ?)]],
+Description
+
+The Only One Project est une petite aventure hardcore avec un pré-donjon, et un gros donjon avec pleins d'énigmes tordus, un mini-boss "rigolo", et un gros boss final original dans son pattern !
+
+ Scénario
+
+Link se réveille chez lui, dans un monde parallèle à A Link to the Past !
+Il se retrouve sans arme, sans rien ! Sortie de chez lui, il part à la recherche d'informations, pour comprendre ce qu'il se passe !
+
+Il va découvrir qu'une épaisse brume sombre recouvre le monde, et qu'il se passe quelque chose d'étrange dans un château non loin.
+Les gardes bloquant l'accès au château, Link devra trouver une autre issue pour pouvoir s'y infiltrer !
+
+Durée de vie
+
+Pour les joueurs les moins à l'aise avec les Zelda 2D, les modes difficiles/harcore, et les puzzles tordus, cela pourrait vous prendre entre 1 à 2 heures.]],
   author = "KaKaShUruKioRa",
   quest_version = "0.1.3",
-  release_date = "",
+  release_date = "20210909",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
   normal_quest_size = "320x240",
   min_quest_size = "320x240",

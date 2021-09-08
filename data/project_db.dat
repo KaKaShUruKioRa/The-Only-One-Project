@@ -827,7 +827,6 @@ file{ path = "languages/fr", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "languages/fr/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/BluePrint", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

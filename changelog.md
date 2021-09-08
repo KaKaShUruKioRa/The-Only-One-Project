@@ -20,6 +20,7 @@
 🗃**Organisation**
 - Déplacement des Maps dans des Dossiers Répartis par Etages
 - Suppression de Fichiers Inutiles
+- Ajout et Modification des Logos et Icônes
 
 __--------------------------------------------------------------------------------------------__
 
