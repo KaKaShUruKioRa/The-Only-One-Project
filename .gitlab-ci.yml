@@ -1,0 +1,161 @@
+# GitLab CI/CD configuration for The Only One.
+
+# Job variables, all customisation is done here.
+variables:
+  SOLARUS_PATH: solarus-games/solarus
+  SOLARUS_REF: release-1.6.5
+  RESOURCES_FILE: medias/resources.rc
+  RC_COMPANYNAME: KaKaShUruKioRa
+  RC_FILEDESCRIPTION: The Only One, une petite aventure hardcore.
+  RC_LEGALCOPYRIGHT: © 2021 KaKaShUruKioRa
+  RC_LEGALTRADEMARKS: ""
+  RC_PRODUCTNAME: The Only One
+  WRITE_DIR: AppData/Roaming/The Only One
+  EXE_NAME: The Only One.exe
+  PACKAGE_PREFIX: The Only One
+
+# Available pipeline stages.
+stages:
+  - prepare
+  - build
+  - package
+  - bundle
+
+# This job downloads the Solarus engine.
+solarus-prepare:
+  stage: prepare
+  image: solarus/utilities-env
+  needs: []
+  script:
+    - BASE_URL=$CI_SERVER_URL/$SOLARUS_PATH
+    - ARCHIVE_URL=$BASE_URL/-/archive/$SOLARUS_REF/archive.tgz
+    - echo "$ARCHIVE_URL"
+    - TMP_FILE=$(mktemp)
+    - wget -O $TMP_FILE $ARCHIVE_URL
+    - mkdir solarus
+    - tar x -zf $TMP_FILE -C solarus --strip-components 1
+  artifacts:
+    name: $CI_JOB_NAME
+    paths:
+      - solarus
+
+# This job template builds the Solarus engine for the quest bundle.
+# It customises the write directory and executable metadata.
+# The application icon is configured in the resource file itself.
+.solarus-build:
+  stage: build
+  image: solarus/mingw-build-env
+  needs:
+    - solarus-prepare
+  script:
+    - export CCACHE_BASEDIR=$CI_PROJECT_DIR
+    - export CCACHE_DIR=$CI_PROJECT_DIR/ccache
+    - export CCACHE_COMPILERCHECK=content
+    - ccache --show-stats
+    - cp -f $RESOURCES_FILE
+        solarus/cmake/win32/resources-mingw.rc
+    - PRODUCT_VERSION=$(echo ${CI_COMMIT_TAG:-0.0.0}
+        | tr -d "v" | tr "." ","),0
+    - PRODUCT_VERSION_STR=${CI_COMMIT_TAG:-$CI_COMMIT_SHORT_SHA}
+    - sed -i solarus/cmake/win32/resources-mingw.rc
+        -e "s/@@PRODUCTVERSION@@/$PRODUCT_VERSION/g"
+        -e "s/@@COMPANYNAME_STR@@/$RC_COMPANYNAME/g"
+        -e "s/@@FILEDESCRIPTION_STR@@/$RC_FILEDESCRIPTION/g"
+        -e "s/@@LEGALCOPYRIGHT_STR@@/$RC_LEGALCOPYRIGHT/g"
+        -e "s/@@LEGALTRADEMARKS_STR@@/$RC_LEGALTRADEMARKS/g"
+        -e "s/@@ORIGINALFILENAME_STR@@/$EXE_NAME/g"
+        -e "s/@@PRODUCTNAME_STR@@/$RC_PRODUCTNAME/g"
+        -e "s/@@PRODUCTVERSION_STR@@/$PRODUCT_VERSION_STR/g"
+    - mkdir solarus/build
+    - cd solarus/build
+    - $ARCH-w64-mingw32-cmake 
+        -DCMAKE_C_COMPILER_LAUNCHER=ccache
+        -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+        -DCMAKE_STAGING_PREFIX=$CI_PROJECT_DIR/staging
+        -DCMAKE_SKIP_INSTALL_ALL_DEPENDENCY=TRUE
+        -DSOLARUS_TESTS=OFF -DSOLARUS_GUI=OFF
+        -DSOLARUS_WRITE_DIR=$WRITE_DIR
+        --no-warn-unused-cli ..
+    - make -j$(nproc)
+    - make -j$(nproc) install/strip
+    - cp -f ../license*.txt $CI_PROJECT_DIR/staging
+    - unix2dos -q -k -o $CI_PROJECT_DIR/staging/license*.txt
+  cache:
+    key: $CI_JOB_NAME:$SOLARUS_REF
+    paths:
+      - ccache
+  artifacts:
+    name: $CI_JOB_NAME
+    paths:
+      - staging
+
+# This job builds Solarus for Windows 32-bit (only for releases).
+solarus-32bit-build:
+  extends: .solarus-build
+  variables:
+    ARCH: i686
+  only:
+    - tags
+
+# This job builds Solarus for Windows 64-bit.
+solarus-64bit-build:
+  extends: .solarus-build
+  variables:
+    ARCH: x86_64
+
+# This job packages the quest into a Solarus data file.
+quest-package:
+  stage: package
+  image: solarus/utilities-env
+  needs: []
+  script:
+    - VERSION=${CI_COMMIT_TAG:-$CI_COMMIT_SHORT_SHA}
+    - PACKAGE=$PACKAGE_PREFIX-$VERSION.solarus
+    - cd data && 7za a -tzip ../$PACKAGE .
+  artifacts:
+    name: $CI_JOB_NAME
+    paths:
+      - $PACKAGE_PREFIX-*.solarus
+
+# This job template bundles the Solarus engine with the quest.
+# License files from the engine itself should not be removed.
+.quest-bundle:
+  stage: bundle
+  image: solarus/mingw-build-env
+  script:
+    - VERSION=${CI_COMMIT_TAG:-$CI_COMMIT_SHORT_SHA}
+    - BUNDLE=$PACKAGE_PREFIX-$VERSION-$BUNDLE_SUFFIX.zip
+    - mv -f $PACKAGE_PREFIX-*.solarus data.solarus
+    - mv -f staging/bin/solarus-run.exe staging/bin/$EXE_NAME
+    - mv -f staging/license_gpl.txt staging/license.solarus.txt
+    - unix2dos -q -k -o credits.txt
+    - mingw_make_pkg.sh $ARCH $BUNDLE $PACKAGE_PREFIX
+        staging/bin/libsolarus.dll staging/bin/$EXE_NAME
+    - pkg_add.sh $BUNDLE $PACKAGE_PREFIX
+        staging/license.solarus.txt credits.txt data.solarus
+  artifacts:
+    name: $CI_JOB_NAME
+    paths:
+      - $PACKAGE_PREFIX-*-$BUNDLE_SUFFIX.zip
+
+# This job bundles 32-bit Solarus engine with the quest (only for releases).
+quest-32bit-bundle:
+  extends: .quest-bundle
+  needs:
+    - solarus-32bit-build
+    - quest-package
+  variables:
+    ARCH: i686
+    BUNDLE_SUFFIX: 32bit
+  only:
+    - tags
+
+# This job bundles 64-bit Solarus engine with the quest.
+quest-64bit-bundle:
+  extends: .quest-bundle
+  needs:
+    - solarus-64bit-build
+    - quest-package
+  variables:
+    ARCH: x86_64
+    BUNDLE_SUFFIX: 64bit

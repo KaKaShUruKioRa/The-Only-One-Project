@@ -821,10 +821,16 @@ file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = 
 file{ path = "items/quest", license = "GPL v3" }
 file{ path = "items/quest/mushroom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "languages", license = "CC BY-SA 4.0" }
+file{ path = "languages/en", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "languages/en/images", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/text", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "languages/fr/images", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/text", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
